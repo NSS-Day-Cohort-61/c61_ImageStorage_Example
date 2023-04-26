@@ -15,6 +15,7 @@ namespace ImageStorage.Repositories
         public ImageRepository(IConfiguration config)
         {
             _config = config;
+
         }
 
         private SqlConnection Connection
